@@ -63,6 +63,9 @@
       }
     }
   </style>
+
+  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.9/default/snipcart.css" />
+
 </head>
 
 <body>
@@ -73,11 +76,23 @@
     <h2>Affordable and stylish packaging for your small online business.</h2>
     <p>Take advantage of low minimum quantities and bulk pricing without ordering hundreds or thousands of items at a time. Create your own of packaging and shipping supplies that delight your buyers <strong>starting at $10 per order</strong>.</p>
 
+    <button class="snipcart-add-item"
+      data-item-id="starry-night"
+      data-item-price="79.99"
+      data-item-url="/paintings/starry-night"
+      data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+      data-item-image="/assets/images/starry-night.jpg"
+      data-item-name="The Starry Night">
+      Add to cart
+    </button>
+    
     <!--
     <h3>Coming soon.</h3>
     <label>Get on the waiting list</label> -->
   </div>
 
+  <div id="snipcart" data-api-key="NTEwM2RkMzEtMzcwMS00YzFjLTllOGItN2YwMWNiZTY0Zjg2NjM3MTk1MzU4MTYyMzIxOTY2" hidden></div>
+  <script src="https://cdn.snipcart.com/themes/v3.0.9/default/snipcart.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75211317-2"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
